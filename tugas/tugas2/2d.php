@@ -24,7 +24,7 @@
         
         ?>
 
-    </table>
+    </table> 
     
 </body>
 </html>

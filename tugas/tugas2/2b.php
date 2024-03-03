@@ -1,7 +1,22 @@
 <?php
-for ($i = 1; $i <= 10; $i++) {
-    for ($j = 1; $j <= $i; $j++) {
-        echo $j . " ";
+// for ($i = 1; $i <= 10; $i++) {
+//     for ($j = 1; $j <= $i; $j++) {
+//         echo $j . " ";
+//     }
+//     echo "<br>";
+// }
+
+function cetak_angka($angka) {
+    for ($i = 1; $i <= $angka; $i++) {
+        for ($j = 1; $j <= $i; $j++) {
+            echo $j . " ";
+        }
+        echo "<br>";
     }
-    echo "<br>";
+
+
 }
+
+echo cetak_angka(5);
+echo "<hr>";
+cetak_angka(10);
